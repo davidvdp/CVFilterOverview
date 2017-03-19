@@ -13,4 +13,4 @@ is saved and contains the generated image.
 
 Or,
 
-Run Create.py <image> to do the same for your own image.
+Run Create.py "image.bmp" to do the same for your own image.
