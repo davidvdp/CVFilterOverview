@@ -28,7 +28,7 @@ class Portrait:
 
     def __init__ (self, imageLocation):
         if not os.path.isfile(imageLocation):
-            raise IOError("File " + imageLocation + " Not Found")
+            raise IOError("File " + imageLocation + " not found")
         self.originalImage = cv2.imread(imageLocation)
         self.AddMargins()
         self.WriteSecondLineText()
